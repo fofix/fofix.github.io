@@ -1,0 +1,4 @@
+*.pid
+*.py?
+*.sw?
+__pycache__
