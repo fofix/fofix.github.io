@@ -3,14 +3,16 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'FoFiX team'
-SITENAME = 'Frets On Fire X — FoFiX'
-SITEURL = ''
-
-PATH = 'content'
+SITENAME = 'Frets On Fire X'
+SITETITLE = 'Frets On Fire X'
+SITESUBTITLE = ''
+SITEURL = 'http://localhost:8000'
+SITELOGO = '/images/fofix_logo.png'
 
 TIMEZONE = 'Europe/Paris'
-
 DEFAULT_LANG = 'en'
+
+PATH = 'content'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
