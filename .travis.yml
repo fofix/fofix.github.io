@@ -1,0 +1,13 @@
+language: python
+branches:
+  only:
+  - sources
+install:
+- pip install -r requirements.txt
+- cd themes && git submodule init Flexx
+- cd themes && git submodule update
+script:
+- make publish github
+env:
+  global:
+    secure: lWKZ74/GnPkKHmkSAQpW9//9m8j4ioIgIgks06+k5HzFqvJZIetTPeZAsOSNDx14Cs+mFWeHANCndGctdyII5odNKFrirYwMDhxHZL6J/vT5dQvNkU7aaoxVT2Phbnp4GvBi6/lRh4yGjL4bDILvvxkajlQRsA8zEbG8G1JHPxgvOkC3mTyEkgxzojWRB3i/9r3DhQtr0TX87cnVVNFfJx4z3Rm+P158UGkuIpVJZwZsjQJ9tRMYmpInq0dEMxux8rNNQHkLcvyZRKMxglO+HMXfE1AlPZq9dRL4y47tG9nPIzMzty1armYRD4Xd+doZRHBJG+EjuFtPNPdfZ3n1gi55eYOP3eSKQBs44aodl2kjXD64Su0gIP0OBMnQSl0tVZS2CwLkjHMYU413E4X6iZEkqG7ENzKo1ByEEQV5SbcfEJD6DE0JSt0zmJIcaQ/sOjhT/wfImuDMOIUvBv69/s9mlhK8kN8HJ5W38WwFFDWng80jHnn2U5YuhERZRXR/3a+Nx/dSiucPT/ybJ7cEqZ+7/ePLmKYqVir91isStf15dvADNHiy5NF7a7aRXorBPdj7tA8nt0mysJa4iyswgYvakQebsd9iCc/BKdoa4Fcq/yU9i6WuDvVZQxoAfdZlfquOD1tZT0jlRsKU33GN7yefjfR+0Xzle6MvvisK+/A=
