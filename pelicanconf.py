@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
+
 
 AUTHOR = 'FoFiX team'
 SITENAME = 'Frets On Fire X'
@@ -21,17 +23,40 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Main page
+MAIN_MENU = True
+DISPLAY_PAGES_ON_MENU = True
+MENUITEMS = (
+    ("Blog", "/blog.html"),
+    ("Archives", "/archives.html"),
+    ("Categories", "/categories.html"),
+    ("Tags", "/tags.html"),
+)
+
+INDEX_URL = "blog"
+INDEX_SAVE_AS = "blog.html"
+# pages
+PAGE_URL = "pages/{slug}.html"
+PAGE_SAVE_AS = "pages/{slug}.html"
+# articles
+ARTICLE_PATHS = ['blog']
+ARTICLE_URL = "blog/{slug}.html"
+ARTICLE_SAVE_AS = "blog/{slug}.html"
+# static
+STATIC_PATHS = ['images']
+
 # Blogroll
 LINKS = (
-    ('Frets On Fire', 'http://fretsonfire.sourceforge.net'),
+    ("Blog", "/blog.html"),
 )
 
 # Social widget
 SOCIAL = (
-    ('GitHub', 'https://github.com/fofix'),
+    ('github', 'https://github.com/fofix'),
 )
 
 DEFAULT_PAGINATION = 10
+COPYRIGHT_YEAR = datetime.now().year
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
