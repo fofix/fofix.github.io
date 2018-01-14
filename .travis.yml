@@ -1,16 +1,28 @@
 language: python
+
 git:
   submodules: false
+
 branches:
   only:
   - sources
+
+before_install:
+- openssl aes-256-cbc -K $encrypted_bf42b6e438ff_key -iv $encrypted_bf42b6e438ff_iv
+  -in .travis/deploy_key.enc -out .travis/deploy_key -d
+- eval "$(ssh-agent -s)"
+- chmod 600 .travis/deploy_key
+- ssh-add .travis/deploy_key
+
 install:
 - pip install -r requirements.txt
 - git submodule update --init
 - cd themes && git submodule init Flex && cd -
 - cd themes && git submodule update && cd -
+
 script:
 - make publish github
-env:
-  global:
-    secure: "WN5CeJyukEAPJnsSb1W0h+TpukByUfSKDIIuB312ispXbB/T5LgJETjUNEJr0IBTE9p363KP6Fd001cjrTwRuL7VphlzwCkOzCZY5ZzRDQehJVtCbN6c8SJt6JbrCxuTbgfTDzmUkG3RENNcmTdwi7WYQCNFm+X3uhi1YQfiW5jdfm34aZ6HN1HN4ooLX3v7QaEziX57q/txO6dsp1ATI2VoTNfdR9voPGX34DTX1v2yFgANcNhwgSRjLtLUmQcJoJCy9FaQJt9aTcczVcUQwCkqdE9Dj5hMPAKmg4Mx3oJTdMm3K8tWgUcly4VVj2iP1R5mPIWJl3KjXNClOiRx5KPkZB0SZOJPiS6TkAkRBAn7dq4OAX4gHfNhajiB/VY2yVG4KFTHgKnA2iLG1Y34tTwZmHPV0GSUtXI2ifPoWjaaI4ZWAcpsZz0G56xb+Q9p9QaIj+A8i2zrU6cdTT05g1Hvr2r7Jv8JrHjhEsh59O1LGd7U9jjEGJ6q0OETyTbZjFDZPP5IkS6zJgD6I9DB+xlQdW03m7gFfVuy8hAIz3/o4gQhs55fTIZ9HNkSqMHhc171M/r9q8jITnJt9DEw2+Dr12tTfNU9HtnO6fgLFA/sHAffKWXrrodKzW7pMrro0l9AX3UFufdwGPtlvvAD7pJgaATj150zbD3e+vzmlew="
+
+notification:
+    email:
+        on_failure: always
