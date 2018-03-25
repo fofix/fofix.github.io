@@ -19,6 +19,7 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
-
+PIWIK_URL = os.getenv('PIWIK_URL')
+PIWIK_SITE_ID = os.getenv('PIWIK_SITE_ID')
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""
