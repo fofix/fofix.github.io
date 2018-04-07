@@ -1,6 +1,9 @@
 Frets on Fire X: website
 ========================
 
+[![Build Status](https://travis-ci.org/fofix/fofix.github.io.svg?branch=sources)](https://travis-ci.org/fofix/fofix.github.io)
+
+
 This repository contains the source code of our website:
 
 - branch ``sources``: source code, pages and blog of the pelican website
