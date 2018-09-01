@@ -1,10 +1,10 @@
-title: Monthly report: Febrary 2018
+title: Monthly report: February 2018
 date: 2018-03-01
 category: reports
 tags: reports, monthly
-slug: monthly-report-febrary-2018
+slug: monthly-report-february-2018
 
-Here is the monthly report **#1**. You'll find some updates for **Febrary 2018**
+Here is the monthly report **#1**. You'll find some updates for **February 2018**
 
 ## FoFiX
 
