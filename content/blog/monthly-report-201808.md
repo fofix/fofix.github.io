@@ -30,7 +30,7 @@ Other stats:
 - 53 issues
 - 8 PR (4 opened, 3 merged)
 
-More details: https://github.com/fofix/fofix/pulse/monthly.
+More details: <https://github.com/fofix/fofix/pulse/monthly>.
 
 
 ## Fretwork
