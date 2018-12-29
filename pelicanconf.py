@@ -63,3 +63,9 @@ COPYRIGHT_YEAR = datetime.now().year
 
 # Theme
 THEME = "themes/Flex"
+
+# Plugins
+PLUGIN_PATHS = ["plugins"]
+PLUGINS = [
+    'post_stats',
+]
