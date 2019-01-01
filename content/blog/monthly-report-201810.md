@@ -45,4 +45,4 @@ Other stats:
 - 4 issues (-1)
 - 2 PR (2 merged)
 
-More details: <https://github.com/fofix/fofix/pulse/monthly>.
+More details: <https://github.com/fofix/fretwork/pulse/monthly>.
