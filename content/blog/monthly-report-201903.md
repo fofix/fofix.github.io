@@ -11,7 +11,7 @@ Here is the monthly report **#13**. You'll find some updates for **March 2019**.
 
 Pull Requests (PR):
 
-- opened / closed PR: "Bump the version of fretwork" [184](https://github.com/fofix/fofix/pull/184)
+- opened / merged PR: "Bump the version of fretwork" [184](https://github.com/fofix/fofix/pull/184)
 
 
 Issues:
@@ -33,9 +33,9 @@ More details: <https://github.com/fofix/fofix/pulse/monthly>.
 
 Pull Requests (PR):
 
-- opened / closed PR: "Doc: update release notes for the next version" [49](https://github.com/fofix/fretwork/pull/49)
-- opened / closed PR: "Doc: remove a wrong option" [53](https://github.com/fofix/fretwork/pull/53)
-- opened / closed PR: "Deps: add a requirements.txt file" [54](https://github.com/fofix/fretwork/pull/54)
+- opened / merged PR: "Doc: update release notes for the next version" [49](https://github.com/fofix/fretwork/pull/49)
+- opened / merged PR: "Doc: remove a wrong option" [53](https://github.com/fofix/fretwork/pull/53)
+- opened / merged PR: "Deps: add a requirements.txt file" [54](https://github.com/fofix/fretwork/pull/54)
 - opened PR: "MixStream / Windows: replace dprintf with fdprintf" [55](https://github.com/fofix/fretwork/pull/55)
 
 
