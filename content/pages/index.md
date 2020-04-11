@@ -21,7 +21,8 @@ Here is a list of our projects:
 - [FoFiX](https://github.com/fofix/fofix): the main game
 - [fretwork](https://github.com/fofix/fretwork): a shared library with Frets On Fire (with Cython extentions)
 - [fretwork-wheels](https://github.com/fofix/fretwork-wheels): automation to create wheels
-- [fofix.github.io](https://github.com/fofix/fofix.github.io): this website.
+- [fofix.github.io](https://github.com/fofix/fofix.github.io): this website
+- [PyPitch](https://github.com/fofix/python-pypitch): a C++-extension to analyse audio streams for pitch.
 
 
 Join us
