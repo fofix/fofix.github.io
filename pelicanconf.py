@@ -9,7 +9,7 @@ SITENAME = 'Frets On Fire X'
 SITETITLE = 'Frets On Fire X'
 SITESUBTITLE = ''
 SITEURL = 'http://localhost:8000'
-SITELOGO = '/images/fofix_logo.png'
+SITELOGO = SITEURL + '/images/fofix_logo.png'
 
 TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = 'en'
