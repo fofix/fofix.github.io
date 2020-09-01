@@ -12,13 +12,13 @@ Happy new year!
 
 Pull Requests (PR):
 
-- commented PR: "Split main game code from launcher" [#107](https://github.com/fofix/fofix/issues/107)
-- closed PR: "Cleanup and document FoFiX.py" [#149](https://github.com/fofix/fofix/issues/149)
-- opened / merged PR: "Don't confuse with GPLv2-only" [#178](https://github.com/fofix/fofix/issues/178)
-- opened / merged PR: "Cleanup the Menu module" [#179](https://github.com/fofix/fofix/issues/179)
-- opened / merged PR: "Use logging.warning instead of logging.warn" [#180](https://github.com/fofix/fofix/issues/180)
-- opened / merged PR: "Clean up the MainMenu module" [#181](https://github.com/fofix/fofix/issues/181)
-- opened PR: "Tests: init tests for the game.MainMenu module" [#182](https://github.com/fofix/fofix/issues/182)
+- commented PR: "Split main game code from launcher" [#107](https://github.com/fofix/fofix/pull/107)
+- closed PR: "Cleanup and document FoFiX.py" [#149](https://github.com/fofix/fofix/pull/149)
+- opened / merged PR: "Don't confuse with GPLv2-only" [#178](https://github.com/fofix/fofix/pull/178)
+- opened / merged PR: "Cleanup the Menu module" [#179](https://github.com/fofix/fofix/pull/179)
+- opened / merged PR: "Use logging.warning instead of logging.warn" [#180](https://github.com/fofix/fofix/pull/180)
+- opened / merged PR: "Clean up the MainMenu module" [#181](https://github.com/fofix/fofix/pull/181)
+- opened PR: "Tests: init tests for the game.MainMenu module" [#182](https://github.com/fofix/fofix/pull/182)
 
 Issues:
 
@@ -38,7 +38,7 @@ More details: <https://github.com/fofix/fofix/pulse/monthly>.
 
 Pull Requests (PR):
 
-- opened / merged PR: "Logs: use logging.warning instead of logging.warn" [#43](https://github.com/fofix/fretwork/issues/43)
+- opened / merged PR: "Logs: use logging.warning instead of logging.warn" [#43](https://github.com/fofix/fretwork/pull/43)
 
 Other stats:
 

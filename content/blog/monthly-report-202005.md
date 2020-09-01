@@ -35,10 +35,10 @@ Released:
 
 Pull Requests (PR):
 
-- opened PR: "Encoding: replace iso-8859-1 with utf-8" [#4](https://github.com/fofix/python-videoplayer/4)
+- opened PR: "Encoding: replace iso-8859-1 with utf-8" [#4](https://github.com/fofix/python-videoplayer/pull/4)
 
 Issues:
 
-- opened issue: "GTimeVal deprecation in GLib 2.61.2" [#1](https://github.com/fofix/python-videoplayer/issues/)
-- opened issue: "g_get_current_time is deprecated in GLib 2.61.2" [#2](https://github.com/fofix/python-videoplayer/issues/)
-- opened issue: "g_time_val_add is deprecated in GLib 2.61.2" [#3](https://github.com/fofix/python-videoplayer/issues/)
+- opened issue: "GTimeVal deprecation in GLib 2.61.2" [#1](https://github.com/fofix/python-videoplayer/issues/1)
+- opened issue: "g_get_current_time is deprecated in GLib 2.61.2" [#2](https://github.com/fofix/python-videoplayer/issues/2)
+- opened issue: "g_time_val_add is deprecated in GLib 2.61.2" [#3](https://github.com/fofix/python-videoplayer/issues/3)

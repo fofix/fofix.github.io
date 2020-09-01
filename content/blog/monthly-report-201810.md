@@ -36,7 +36,7 @@ Pull Requests (PR):
 
 Issues:
 
-- closed issue: "Make the log level customizable" [#40](https://github.com/fofix/fretwork/issues/)
+- closed issue: "Make the log level customizable" [#40](https://github.com/fofix/fretwork/issues/40)
 
 Other stats:
 
