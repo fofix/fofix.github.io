@@ -33,7 +33,7 @@ More details: <https://github.com/fofix/fofix/pulse/monthly>.
 
 Pull Requests (PR):
 
-- opened PR: "Setup: replace os.spawnl with subprocess.call" #58
+- opened PR: "Setup: replace os.spawnl with subprocess.call" [#58](https://github.com/fofix/fretwork/pull/58)
 
 Other stats:
 

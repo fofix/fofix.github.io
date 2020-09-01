@@ -12,14 +12,14 @@ Here is the monthly report **#25**. You'll find some updates for **June 2020**.
 
 Pull Requests (PR):
 
-- merged PR: "Use Pillow version number" #185
-- merged PR: "Bump pillow from 4.3.0 to 6.2.0" #210
-- opened / merged PR: "Bump Pillow from 6.2.0 to 6.2.2" #220
-- opened / merged PR: "Doc: update release notes after the 3.122 release" #221
+- merged PR: "Use Pillow version number" [#185](https://github.com/fofix/fofix/pull/185)
+- merged PR: "Bump pillow from 4.3.0 to 6.2.0" [#210](https://github.com/fofix/fofix/pull/210)
+- opened / merged PR: "Bump Pillow from 6.2.0 to 6.2.2" [#220](https://github.com/fofix/fofix/pull/220)
+- opened / merged PR: "Doc: update release notes after the 3.122 release" [#221](https://github.com/fofix/fofix/pull/221)
 
 Issues:
 
-- opened issue: "Fretwork package installation" #219
+- opened issue: "Fretwork package installation" [#219](https://github.com/fofix/fofix/issues/219)
 
 Other stats:
 
@@ -33,7 +33,7 @@ Other stats:
 
 Issues:
 
-- opened issue: "pip install fails on Windows 10, Python 3" #59
+- opened issue: "pip install fails on Windows 10, Python 3" [#59](https://github.com/fofix/fretwork/issues/59)
 
 Other stats:
 
@@ -47,8 +47,8 @@ Other stats:
 
 Pull Requests (PR):
 
-- merged PR: "Encoding: replace iso-8859-1 with utf-8" #4
-- opened PR: "Use scikit-build to build the extension" #5
+- merged PR: "Encoding: replace iso-8859-1 with utf-8" [#4](https://github.com/fofix/python-videoplayer/pull/4)
+- opened PR: "Use scikit-build to build the extension" [#5](https://github.com/fofix/python-videoplayer/pull/5)
 
 Other stats:
 
