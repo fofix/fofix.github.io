@@ -18,7 +18,7 @@ Pull Requests (PR):
 
 Issues:
 
-- closed issue: "Missing DLL when starting FoFiX.py" #208
+- closed issue: "Missing DLL when starting FoFiX.py" [#208](https://github.com/fofix/fofix/issues/208)
 
 Other stats:
 
@@ -32,7 +32,7 @@ Other stats:
 
 Pull Requests (PR):
 
-- closed PR: "Use scikit-build to build the extension" [#5](https://github.com/fofix/python-videoplayer/5)
+- closed PR: "Use scikit-build to build the extension" [#5](https://github.com/fofix/python-videoplayer/pull/5)
 
 Other stats:
 
