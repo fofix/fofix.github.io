@@ -7,8 +7,6 @@ slug: monthly-report-april-2019
 Here is the monthly report **#14**. You'll find some updates for **April 2019**.
 
 
-
-
 ## FoFiX
 
 Pull Requests (PR):

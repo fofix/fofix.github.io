@@ -5,7 +5,7 @@ tags: reports, quarterly
 slug: quarterly-report-2021-q1
 authors: Linkid
 
-Here is the monthly report **#28**. You'll find some updates for the **2021 Q1**.
+Here is the monthly report **#28**. You'll find some updates for the **2021 Q1** (from January to March).
 
 
 ## FoFiX
@@ -35,10 +35,10 @@ Blocker before next version (v1.0):
 
 Pull Requests (PR):
 
-- [#64](https://github.com/fofix/fretwork/pull/): merged PR: "fix(readme): replace the dependency pack link"
-- [#65](https://github.com/fofix/fretwork/pull/): merged PR: "ci(travis): clean up python versions"
-- [#66](https://github.com/fofix/fretwork/pull/): opened / merged PR: "build(setup): specify numpy versions & add some classifiers"
-- [#67](https://github.com/fofix/fretwork/pull/): opened / merged PR: "Bump the version to 0.5.0"
+- [#64](https://github.com/fofix/fretwork/pull/64): merged PR: "fix(readme): replace the dependency pack link"
+- [#65](https://github.com/fofix/fretwork/pull/65): merged PR: "ci(travis): clean up python versions"
+- [#66](https://github.com/fofix/fretwork/pull/66): opened / merged PR: "build(setup): specify numpy versions & add some classifiers"
+- [#67](https://github.com/fofix/fretwork/pull/67): opened / merged PR: "Bump the version to 0.5.0"
 
 Issues:
 
