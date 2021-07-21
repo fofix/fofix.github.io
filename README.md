@@ -1,13 +1,13 @@
 Frets on Fire X: website
 ========================
 
-[![Build Status](https://travis-ci.org/fofix/fofix.github.io.svg?branch=sources)](https://travis-ci.org/fofix/fofix.github.io)
+[![Build Status](https://github.com/fofix/fofix.github.io/actions/workflows/deploy.yml/badge.svg?branch=sources)](https://github.com/fofix/fofix.github.io/actions/workflows/deploy.yml)
 
 
 This repository contains the source code of our website:
 
 - branch ``sources``: source code, pages and blog of the pelican website
-- branch ``master``: generated HTML (by Travis).
+- branch ``master``: generated HTML (by GitHub Actions).
 
 
 All Pull Requests should be merged in the ``sources`` branch.

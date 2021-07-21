@@ -22,6 +22,7 @@ jobs:
       - name: Deploy
         uses: nelsonjchen/gh-pages-pelican-action@0.1.10
         #uses:  iranzo/gh-pages-pelican-action@1.0.3
+        #run: make publish github
         env:
           GH_PAGES_BRANCH: master
           GH_PAGES_CNAME: fofix.org

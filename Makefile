@@ -74,9 +74,9 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 github: publish
-	ghp-import -m "Generate Pelican site by TravisCI" -b $(GITHUB_PAGES_BRANCH) -c ${CNAME} "$(OUTPUTDIR)"
-	#@git push -fq https://${GH_TOKEN}@github.com/$(TRAVIS_REPO_SLUG).git $(GITHUB_PAGES_BRANCH)
-	git remote add deploy git@github.com:$(TRAVIS_REPO_SLUG)
+	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) -c ${CNAME} "$(OUTPUTDIR)"
+	#@git push -fq https://${GH_TOKEN}@github.com/$(REPO_SLUG).git $(GITHUB_PAGES_BRANCH)
+	git remote add deploy git@github.com:$(REPO_SLUG)
 	git push -fq deploy $(GITHUB_PAGES_BRANCH)
 
 
