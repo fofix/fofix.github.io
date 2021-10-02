@@ -10,7 +10,7 @@ The next reports will be quarterly in order to have a more macro view of the pro
 
 This quarter, major updates are:
 
-- use of the domain name https://fofix.org
+- use of the domain name [fofix.org](https://fofix.org)
 - PyPitch release (v1.3).
 
 
@@ -97,7 +97,7 @@ Pull Requests (PR):
 
 ## Website
 
-New domain name: https://fofix.org :).
+New domain name: [fofix.org](https://fofix.org) :).
 
 Pull Requests (PR):
 
