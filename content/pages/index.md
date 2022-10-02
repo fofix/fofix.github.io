@@ -33,4 +33,4 @@ We have large plans for the game and not enough developers to reach goals
 quickly, if you want to help out head on over:
 
 - IRC: #fofix on oftc.net ([web interface](https://webchat.oftc.net/))
-- Gitter: [web interface](https://gitter.im/fofix/fofix).
+- [matrix]: #fofix:matrix.org ([web interface](https://matrix.to/#/#fofix:matrix.org)).
