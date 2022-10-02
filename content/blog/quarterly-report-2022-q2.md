@@ -17,7 +17,7 @@ Blocker before python 3 migration: errors in CI.
 Issues:
 
 - fofix [#264](https://github.com/fofix/fofix/issues/264): opened issue: "[3.x] Runtime errors with Python 2.7.18"
-- fofix [#265](https://github.com/fofix/fofix/issues/264): opened issue: "[4.x] Runtime errors with Python 2.7.18"
+- fofix [#265](https://github.com/fofix/fofix/issues/265): opened issue: "[4.x] Runtime errors with Python 2.7.18"
 
 Stats:
 
