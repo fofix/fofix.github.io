@@ -53,6 +53,7 @@ LINKS = (
 # Social widget
 SOCIAL = (
     ('github', 'https://github.com/fofix'),
+    ('comments', 'https://matrix.to/#/#fofix:matrix.org'),
 )
 
 DEFAULT_PAGINATION = 10
