@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="https://fofix.github.io/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="https://fofix.github.io/theme/pygments/github.min.css">
+
+
+  <link rel="stylesheet" type="text/css" href="https://fofix.github.io/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="https://fofix.github.io/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="https://fofix.github.io/theme/font-awesome/css/solid.css">
+
+
+    <link href="https://fofix.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Frets On Fire X Atom">
+
+
+
+
+
+<meta name="author" content="FoFiX team" />
+<meta name="description" content="Python 3 Python 2 will reach its end of life in 01/01/2020. This means we will need to move our code to Python 3. This work already began, and an issue was opened #110. However, this is not an easy task for us to move to Python 3 …" />
+<meta name="keywords" content="general, python3">
+
+
+<meta property="og:site_name" content="Frets On Fire X"/>
+<meta property="og:title" content="Moving to Python 3"/>
+<meta property="og:description" content="Python 3 Python 2 will reach its end of life in 01/01/2020. This means we will need to move our code to Python 3. This work already began, and an issue was opened #110. However, this is not an easy task for us to move to Python 3 …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="https://fofix.github.io/blog/moving-to-python3.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-09-15 00:00:00+02:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="https://fofix.github.io/author/fofix-team.html">
+<meta property="article:section" content="general"/>
+<meta property="article:tag" content="general"/>
+<meta property="article:tag" content="python3"/>
+<meta property="og:image" content="/images/fofix_logo.png">
+
+  <title>Frets On Fire X &ndash; Moving to Python 3</title>
+
+</head>
+<body class="light-theme">
+  <aside>
+    <div>
+      <a href="https://fofix.github.io">
+        <img src="/images/fofix_logo.png" alt="Frets On Fire X" title="Frets On Fire X">
+      </a>
+
+      <h1>
+        <a href="https://fofix.github.io">Frets On Fire X</a>
+      </h1>
+
+
+
+      <nav>
+        <ul class="list">
+
+
+
+            <li>
+              <a target="_self" href="/blog.html" >Blog</a>
+            </li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+          <li>
+            <a  class="sc-github" href="https://github.com/fofix" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="sc-comments" href="https://matrix.to/#/#fofix:matrix.org" target="_blank">
+              <i class="fab fa-comments"></i>
+            </a>
+          </li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://fofix.github.io">Home</a>
+
+      <a href="/blog.html">Blog</a>
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://fofix.github.io/feeds/all.atom.xml">Atom</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+      
+    <h1 id="moving-to-python3">Moving to Python 3</h1>
+    <p>
+      Posted on Sun 15 September 2019 in <a href="https://fofix.github.io/category/general.html">general</a>
+
+        &#8226; 1 min read
+    </p>
+  </header>
+
+
+  <div>
+    <h2>Python 3</h2>
+<p>Python 2 will reach its end of life in <a href="https://pythonclock.org">01/01/2020</a>. This means we will need to move our code to Python 3.</p>
+<p>This work already began, and an issue was opened <a href="https://github.com/fofix/fofix/issues/110">#110</a>.</p>
+<p>However, this is not an easy task for us to move to Python 3 because:</p>
+<ul>
+<li>we have few <em>unit tests</em> to be sure we don't break everything</li>
+<li>
+<p>we have some <em>rewrite modules</em> that we need to replace with dependencies:</p>
+<ul>
+<li><code>fofix.core.Collada</code> (issue <a href="https://github.com/fofix/fofix/issues/11">#11</a>)</li>
+<li><code>fofix.core.LinedConfigParser</code> (PR <a href="https://github.com/fofix/fofix/pull/203">#203</a>).</li>
+</ul>
+</li>
+</ul>
+<p>Furthermore, we have the same work to do in Fretwork (issue <a href="https://github.com/fofix/fretwork/issues/57">#57</a>).</p>
+<h2>Planning</h2>
+<p>Before moving FoFiX to Python 3, we need to do some things:</p>
+<ul>
+<li>
+<p>in Fretwork:</p>
+<ul>
+<li>releasing Fretwork 1.0</li>
+<li>writing max unittests for Fretwork</li>
+<li>moving Fretwork to Python 3</li>
+<li>releasing Fretwork 2.0</li>
+</ul>
+</li>
+<li>
+<p>in FoFiX:</p>
+<ul>
+<li>removing <code>fofix.core.LinedConfigParser</code></li>
+<li>replacing <code>fofix.core.Collada</code></li>
+<li>releasing FoFiX 4.0</li>
+<li>writing max unittests for FoFiX</li>
+<li>moving FoFiX to Python 3</li>
+<li>releasing FoFiX 5.0</li>
+</ul>
+</li>
+</ul>
+<p>This list may be not complete, but it gives an idea of the remaining work.</p>
+<p>So, for now, Python 3 is planned for <strong>Fretwork 2.0</strong> and <strong>FoFiX 5.0</strong>.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="https://fofix.github.io/tag/general.html">general</a>
+      <a href="https://fofix.github.io/tag/python3.html">python3</a>
+    </p>
+  </div>
+
+
+
+
+
+</article>
+
+    <footer>
+<p>&copy; 2023 </p>
+<p>
+Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
+</p>    </footer>
+  </main>
+
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://linkid.alwaysdata.net/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="https://linkid.alwaysdata.net/matomo.php?idsite=2&rec=1" style="border:0" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Frets On Fire X ",
+  "url" : "https://fofix.github.io",
+  "image": "/images/fofix_logo.png",
+  "description": ""
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Frets On Fire X - release</title><link href="https://fofix.github.io/" rel="alternate"></link><link href="https://fofix.github.io/feeds/release.atom.xml" rel="self"></link><id>https://fofix.github.io/</id><updated>2020-12-17T00:00:00+01:00</updated><entry><title>Release: Pypitch 1.3</title><link href="https://fofix.github.io/blog/release-pypitch-1.3.html" rel="alternate"></link><published>2020-12-17T00:00:00+01:00</published><updated>2020-12-17T00:00:00+01:00</updated><author><name>FoFiX team</name></author><id>tag:fofix.github.io,2020-12-17:/blog/release-pypitch-1.3.html</id><summary type="html">&lt;h2&gt;PyPitch 1.3&lt;/h2&gt;
+&lt;p&gt;Here is a new release for PyPitch: &lt;a href="https://github.com/fofix/python-pypitch/releases/tag/1.3"&gt;v1.3&lt;/a&gt;!
+With this release come several changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.9 compatibility&lt;/li&gt;
+&lt;li&gt;remove the &lt;code&gt;sqrLT&lt;/code&gt; function&lt;/li&gt;
+&lt;li&gt;replace Travis with Github Actions&lt;/li&gt;
+&lt;li&gt;update contact infos&lt;/li&gt;
+&lt;li&gt;add classifiers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The support Python versions are 2.7 and 3.5-3.9. The next big …&lt;/p&gt;</summary><content type="html">&lt;h2&gt;PyPitch 1.3&lt;/h2&gt;
+&lt;p&gt;Here is a new release for PyPitch: &lt;a href="https://github.com/fofix/python-pypitch/releases/tag/1.3"&gt;v1.3&lt;/a&gt;!
+With this release come several changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Python 3.9 compatibility&lt;/li&gt;
+&lt;li&gt;remove the &lt;code&gt;sqrLT&lt;/code&gt; function&lt;/li&gt;
+&lt;li&gt;replace Travis with Github Actions&lt;/li&gt;
+&lt;li&gt;update contact infos&lt;/li&gt;
+&lt;li&gt;add classifiers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The support Python versions are 2.7 and 3.5-3.9. The next big release will drop
+support for 2.7 and 3.5 (python 3 only).&lt;/p&gt;</content><category term="release"></category><category term="release"></category><category term="pypitch"></category></entry></feed>
